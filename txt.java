@@ -74,7 +74,7 @@ public class Program {
 					}
 
 					qtdDeFaltasDePagina++;
-				} else { // se jÃ¡ estiver na fila
+				} else { // se já estiver na fila
 					for (Processo p : cache) {
 						if (p.nome.equals(d)) {
 							Processo procurado = p;
